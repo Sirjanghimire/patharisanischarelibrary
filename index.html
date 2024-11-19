@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the web page -->
+    <title>Pathari sanischare library</title>
+    <!-- Linking the external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header class="navbar">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4YvPwU4SWW_Je3NHR1iQv8kSA5dRikd1wKQ&s" alt="Library Logo">
+        </div>
+        <!-- Links to each section -->
+        <nav class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#trending">Trending Books</a>
+            <a href="#books">Search for Books</a>
+            <a href="#features">Our Features</a>
+            <a href="#about">About Us</a>
+        </nav>
+    </header>
+
+    <!-- Hero section for Home page -->
+    <section id="home" class="hero">
+        <h1>Welcome to the Pathari Sanishchare Book Club and Library</h1>
+        <p>Pathari Sanishchare Book Club was founded in 2076 BS with the vision of promoting reading culture in the community.</p>
+    </section>
+
+    <!-- Trending Books section -->
+    <section id="trending">
+        <h2>Trending Books</h2>
+        <div class="card-container">
+            <!-- Each book is displayed as a card -->
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Muna_Madan_-_book_cover.jpg/220px-Muna_Madan_-_book_cover.jpg">
+                <p>Author: Laxmi Prasad devkota</p>
+                <p>Genre: Nepali narrative poetry</p>
+            </div>
+            <div class="card">
+                <img src="https://www.readerswarehouse.co.za/cdn/shop/products/atomic-habits9781847941831-358090.jpg?v=1709115698">
+                <h3>Atomic Habits</h3>
+                <p>Author: Jane Smith</p>
+                <p>Genre: Mystery</p>
+            </div>
+            <div class="card">
+                <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1557250689i/13445136.jpg">
+               <h3> radha</h3>
+                <p>Author:Krishna dharabashi</p>
+                <p>Genre: Nepali postmodern literature</p>
+            </div>
+            <div class="card">
+                <img src="https://media.thuprai.com/__sized__/front_covers/Sirisko_Phul_by_Parijat-thumbnail-280x405-70.jpg">
+                <h3> Shirishko phool</h3>
+                <p>Author: Parijat</p>
+                <p>Genre: Nepali fiction</p>
+            </div>
+            <div class="card">
+                <img src="https://booksmandala.com/_next/image?url=https%3A%2F%2Fbooks.bizmandala.com%2Fmedia%2Fbooks%2F9781846041242%2F9781846041242-312.webp&w=3840&q=75">
+                <h3>Man's Search for Meaning</h3>
+                <p>Author: Viktor Frankl</p>
+                <p>Genre: selff help</p>
+            </div>
+            <div class="card">
+                <img src="https://booksmandala.com/_next/image?url=https%3A%2F%2Fbooks.bizmandala.com%2Fmedia%2Fbooks%2F9781784703936%2Fimage_xscBFsV_StLVYvl.webp&w=3840&q=75">
+                <h3>Sapines:Homo deus</h3>
+                <p>Author:Yuval Noah Harari </p>
+                <p>Genre: Non fiction</p>
+            </div>
+            <div class="card">
+                <img src="https://booksmandala.com/_next/image?url=https%3A%2F%2Fbooks.bizmandala.com%2Fmedia%2Fbooks%2F9781408844441%2Fimage.jpeg&w=3840&q=75">
+               <h3> A thousand splendid suns</h3>
+                <p>Author:Khaled Hosseini </p>
+                <p>Genre:Historical fiction </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books section -->
+    <section id="books">
+        <h2>Books</h2>
+        <input type="text" id="searchInput" placeholder="Search for a book...">
+        <ul id="bookList" class="hidden"></ul>      
+        
+       
+    </section>
+
+    <!-- Features section -->
+    <section id="features">
+        <h2>Our Features</h2>
+        <dic class="k">
+        <p> More than 1500+ books of different genres. We have muna madan winners, self development books, english novels, peoms,children story, religious books like ramayan.</p>
+        <p> Books favourable for all age groups.</p>
+        <p> We offer free membership to everyone interested.</p>
+        <p> No charges for borrowing books.</p>
+        <p> Indoor games like chess, ludo for refreshment.</p>
+        <p> Periodic free writing contests with prizes.</p>
+        <p> Exposure to authors and other intellectuals.</p>
+        </div>
+    </section>
+
+    <!-- About Us section -->
+    <section id="about">
+        <h2>Contact Us</h2>
+        <p>Email: sirjanghimire999@gmail.com</p>
+        <p>Phone:9811394975/9762955625</p>
+        <p>Address: Pathari Sanischare 8, Morang, Sombare</p>
+        <!-- Button to show an alert message when clicked -->
+        <button id="messageButton">Click to Learn More</button>
+    </section>
+
+    <!-- Footer section with copyright -->
+    <footer>
+        <p>&copy; 2024 Library Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Linking the external JavaScript file -->
+    <script src="web.js"></script>
+</body>
+</html>
